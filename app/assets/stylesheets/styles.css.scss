@@ -1,14 +1,46 @@
+
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(http://fonts.googleapis.com/css?family=Headland+One);
+$bodyBackground: darkGray;
+$baseFontFamily: Headland One;
+$baseFontSize: 16px;
+
+$navbarBackground: black;
+$navbarBackgroundHighlight: gray;
+$navbarLinkColor: white;
+$navbarLinkColorHover: darkGray;
+
+$heroUnitBackground: black;
+$headingsFontFamily: Julius Sans One;
+$heroUnitHeadingColor: lightGray;
+
+
 @import 'bootstrap';
-@import 'bootstrap-responsive';
 
 body {
 	padding-top: 60px;
 }
 
+h1 {
+	padding-bottom: 50px;
+}
+
+.btn {
+	margin: 20px 0;
+}
+
+.hero-unit {
+	margin-bottom:10px;
+}
+
 .footer {
-	margin-top: 50px;
+	margin: 5px;
+	font-size:12px;
 	color: $grayLight;
 	a {
 		color: $gray;
 	}
 }
+
+
+@import 'bootstrap-responsive';
